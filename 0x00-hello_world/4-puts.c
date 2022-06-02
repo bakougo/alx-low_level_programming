@@ -10,10 +10,10 @@
 int main(void)
 {
 
-	char str[] = " ""Programming is like building a multilingual puzzel.";
+	char str1[] = ""Programming is like building a multilingual puzzel."";
 
 
-	puts(str);
+	puts(str1);
 
 	return (0);
 }
