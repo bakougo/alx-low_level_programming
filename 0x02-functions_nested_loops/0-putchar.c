@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "_putchar.c"
-
+#include "main.h"
 /**
  * main - Check description
  * Description: Prints the word _putchar, followed by a new line
