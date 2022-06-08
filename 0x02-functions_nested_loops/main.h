@@ -1,1 +1,1 @@
-int _purchar(void)
+int _purchar(char a);
