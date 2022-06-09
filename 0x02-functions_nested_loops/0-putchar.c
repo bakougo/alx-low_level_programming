@@ -1,6 +1,6 @@
 #include <unistd.h>
-#include "main.h"
 #include "_putchar.c"
+#include "main.h"
 
 /**
  * main - Check description
@@ -13,9 +13,9 @@ int main(void)
 	int i;
 
 	for (i = 0; i < 8; i++)
-		_putchar(word[i]);
+		_putchar(word[i]);	
 	_putchar('\n');
 
 	return (0);
 	
-}	
+}
