@@ -7,11 +7,11 @@
  */
 void jack_bauer(void)
 {
-	int M, H;
+	int H, M;
 
-	for (M = 0; M < 60; M++)
+	for (H = 0; H < 24; H++)
 	{
-		for (H = 0; H < 24; H++)
+		for (M = 0; M < 60; M++)
 		{
 			_putchar((H / 10) + '0');
 			_putchar((H % 10) + '0');
