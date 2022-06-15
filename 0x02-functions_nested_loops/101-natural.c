@@ -23,6 +23,6 @@ int main(void)
 			s = s + fm;
 		}
 	}
-	printf("%\n", s);
+	printf("%i\n", s);
 	return (0);
 }
