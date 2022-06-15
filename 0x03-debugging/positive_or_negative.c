@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
+#include "main.h"
 /**
  *main - Entry point
  *
@@ -9,8 +9,8 @@
  *
  */
 
-/* betty style doc for function positive_or_negative */
-int positive_or_negative(void)
+
+int main(void)
 {
 	int n;
 
