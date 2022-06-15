@@ -1,4 +1,4 @@
-#incldue "main.h"
+#include "main.h"
 
 /**
  * more_numbers - prints 01234567891011121314\n x10
@@ -22,6 +22,6 @@ void more_numbers(void)
 			}
 			_putchar('0' + b);
 		}
-		_putcahr('\n');
+		_putchar('\n');
 	}
 }
