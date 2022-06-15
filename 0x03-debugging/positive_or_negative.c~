@@ -10,7 +10,7 @@
  */
 
 /* betty style doc for function positive_or_negative */
-int positive_or_negative(void)
+int main(void)
 {
 	int n;
 
