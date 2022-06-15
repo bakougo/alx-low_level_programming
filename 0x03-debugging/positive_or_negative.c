@@ -1,15 +1,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+
 /**
  *main - Entry point
+ *
+ *positive_or_negative - prints out + or -ve
  *
  *Return: Always 0 (Success)
  *
  */
 
-/* betty style doc for function main goes there */
-int main(void)
+int positive_or_negative(void)
 {
 	int n;
 
