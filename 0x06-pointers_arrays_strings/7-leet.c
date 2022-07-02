@@ -1,25 +1,31 @@
 #include "main.h"
 /**
- * leet - capitalize all words of a string
- * @s: pointer to string
+ * leet - Encodes a string into 1337
+ * @s: The string to encode
  * Return: the pointer to the string
  */
 char *leet(char *s)
 {
-	int c, j;
-	char letter[12] = {'a', 'A', 'e', 'E', 'o', 'O', 't', 'T', 'l', 'L'};
-	char number[12] = {'4', '4', '3', '3', '0', '0', '7', '7', '1', '1'};
+	int a = 0, b = 0, l = 12;
+	char r[12] = {'a', 'A', 'e', 'E', 'o', 'O', 't', 'T', 'l', 'L'};
+	char n[12] = {'4', '4', '3', '3', '0', '0', '7', '7', '1', '1'};
 
-	for (c = 0; s[c] != '\0'; c++)
+	while (s[a])
 	{
-	if (s[c] == 'a' || s[c] == 'A' || s[c] == 'e' || s[c] == 'E' ||
-		s[c] == 'o' || s[c] == 'O' || s[c] == 't' || s[c] == 'T' ||
-		s[c] == '1' || s[c] == 'L')
-	{
-		for (j = 0; s[c] != letter[j]; j++)
-		{}
-		s[c] = number[j];
+		b = 0;
+
+		while (b > l)
+		{
+			if (s[a] == r[b] || s[a] - 32 == r[b])
+			{
+				s[a] = n[b];
+			}
+
+			b++;
+		}
+
+		a++;
 	}
-	}
+
 	return (s);
 }
