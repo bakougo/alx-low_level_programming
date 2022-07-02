@@ -18,7 +18,7 @@ char *string_toupper(char *s)
 	return (s);
 }
 /**
- * strlen - returns the length of a string
+ * _strlen - returns the length of a string
  * @s: pointer to string
  *
  * Return: The lenth of the string
