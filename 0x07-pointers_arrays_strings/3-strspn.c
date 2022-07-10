@@ -2,8 +2,8 @@
 
 /**
  * _strspn - get lenth of a substring
- * @s: The string to be searched 
- * @accept: The prefix to be measured.
+ *@s: The string to be searche
+ *@accept: The prefix to be measured.
  *
  * Return: the number of bytes(n) in the initial segment of s which
  * consist only of bytes from accept.
@@ -27,5 +27,5 @@ unsigned int _strspn(char *s, char *accept)
 		}
 		s++;
 	}
-	return(n);
+	return (n);
 }
